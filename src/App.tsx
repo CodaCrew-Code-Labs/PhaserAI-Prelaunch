@@ -1,4 +1,5 @@
 import React from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Header from './components/Header';
 import Home from './components/Home';
 import LaunchTimer from './components/LaunchTimer';
@@ -23,6 +24,7 @@ function App() {
       </main>
       <Footer />
       <ScrollUp />
+      <SpeedInsights />
     </div>
   );
 }
